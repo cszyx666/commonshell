@@ -10,7 +10,7 @@ dnf remove epel-release -y 2>/dev/null || true
 dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm -y
 dnf config-manager --set-enabled crb
 dnf install -y "Development Tools"
-dnf install git gcc gcc-c++ make automake autoconf libtool asciidoc xmlto libev-devel libsodium-devel mbedtls-devel pcre-devel c-ares-devel libudns-devel -y
+dnf install -y gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto c-ares-devel libev-devel libsodium-devel mbedtls-devel git
 cd /usr/src
 git clone https://github.com/shadowsocks/shadowsocks-libev.git
 cd shadowsocks-libev
