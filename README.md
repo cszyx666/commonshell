@@ -15,3 +15,5 @@
 ### git add .
 ### git commit -m "描述"
 ### git push
+## 执行脚本
+### curl -fsSL https://raw.githubusercontent.com/用户名/仓库名/分支名/脚本.sh | bash
