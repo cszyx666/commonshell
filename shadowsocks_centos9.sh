@@ -1,4 +1,6 @@
 #!/bin/bash
+# 执行脚本
+# curl -fsSL https://raw.githubusercontent.com/cszyx666/commonshell/main/shadowsocks_centos9.sh | bash
 
 dnf install python3 python3-pip firewalld -y
 pip3 install shadowsocks
