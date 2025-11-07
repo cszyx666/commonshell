@@ -1,3 +1,7 @@
+#!/bin/bash
+# 执行脚本
+# curl -fsSL https://raw.githubusercontent.com/cszyx666/commonshell/main/shadowsocks_ipv6_first_centos9_vultr.sh | bash
+
 dnf install epel-release -y
 dnf clean all
 rm -rf /var/cache/dnf
