@@ -1,6 +1,6 @@
 #!/bin/bash
 # 执行脚本
-# curl -fsSL https://raw.githubusercontent.com/cszyx666/commonshell/main/shadowsocks_centos9_vultr.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/cszyx666/commonshell/main/shadowsocks_ipv4_pure_centos9_vultr.sh | bash
 
 dnf install python3 python3-pip firewalld -y
 pip3 install https://github.com/shadowsocks/shadowsocks/archive/master.zip
