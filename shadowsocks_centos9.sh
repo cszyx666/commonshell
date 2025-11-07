@@ -3,7 +3,7 @@
 # curl -fsSL https://raw.githubusercontent.com/cszyx666/commonshell/main/shadowsocks_centos9.sh | bash
 
 dnf install python3 python3-pip firewalld -y
-pip3 install shadowsocks
+pip3 install https://github.com/shadowsocks/shadowsocks/archive/master.zip
 mkdir -p /etc/shadowsocks
 cat > /etc/shadowsocks/config.json << 'EOF'
 {
