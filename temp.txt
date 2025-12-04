@@ -1,0 +1,9 @@
+dnf install -y epel-release git wget curl tar unzip gcc gcc-c++ make openssl-devel
+SS_VERSION="v1.23.5"
+wget https://github.com/shadowsocks/shadowsocks-rust/releases/download/${SS_VERSION}/shadowsocks-${SS_VERSION}.x86_64-unknown-linux-gnu.tar.xz
+tar -xvf shadowsocks-${SS_VERSION}.x86_64-unknown-linux-gnu.tar.xz
+mv sslocal ssserver /usr/local/bin/
+V2RAY_PLUGIN_VERSION="v1.3.2"
+wget https://github.com/shadowsocks/v2ray-plugin/releases/download/${V2RAY_PLUGIN_VERSION}/v2ray-plugin-linux-amd64-${V2RAY_PLUGIN_VERSION}.tar.gz
+tar -xzf v2ray-plugin-linux-amd64-${V2RAY_PLUGIN_VERSION}.tar.gz
+sudo mv v2ray-plugin_linux_amd64 /usr/local/bin/v2ray-plugin

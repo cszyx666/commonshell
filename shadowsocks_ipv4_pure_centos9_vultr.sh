@@ -10,7 +10,7 @@ cat > /etc/shadowsocks/config.json << 'EOF'
     "server": "0.0.0.0",
     "server_port": 7894,
     "password": "U*3jP6RVJ},2e9KX",
-    "method": "aes-256-gcm",
+    "method": "chacha20-ietf-poly1305",
     "timeout": 300,
     "fast_open": false
 }
